@@ -1,0 +1,7 @@
+copy and paste these mysql lines onto your mysql command line.
+
+details table:
+create table details (sno int not null auto_increment primary key, id int(5), name varchar(15));
+
+data table:
+create table data (sno int not null auto_increment primary key, id int(5), account varchar(15), username varchar(15), password varchar(15));
