@@ -1,12 +1,12 @@
 import mysql.connector
 import random
 
-#connection to MySQL
+#chabge according to your mysql details
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="tiger",
-  database="passwordsmanager"
+  password="password",
+  database="dbname"
 )
 mycursor = mydb.cursor()
 
